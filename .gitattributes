@@ -1,0 +1,4 @@
+# The golden files and eval fixtures are compared byte for byte: keep LF everywhere.
+* text=auto eol=lf
+*.skill binary
+*.jar binary

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: detects-corrupted-fragment
+expected_outcome: |
+  The two tampered fragments (a changed cardinality in the vital signs profile and a byte order mark in the birth sex extension) are named with the reason; the other four are reported as fine; the fragment files are left unchanged.
+context:
+  scaffold_script: place-files.sh

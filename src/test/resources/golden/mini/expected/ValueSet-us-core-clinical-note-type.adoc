@@ -1,0 +1,65 @@
+// ext-standards-us-core-valuesets-us-core-clinical-note-type
+// Topic: US Core Clinical Note Type
+// Type: reference
+// Status: published
+:topic-id: ext-standards-us-core-valuesets-us-core-clinical-note-type
+:topic-type: reference
+:topic-status: published
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, valueset, fhir, clinical-note, note-type, loinc, terminology
+:topic-summary: Defines the value set of clinical note types forming a starter set supported \
+  for fetching and storing clinical notes.
+:topic-canonical: http://hl7.org/fhir/us/core/ValueSet/us-core-clinical-note-type
+:topic-resource-type: ValueSet
+:topic-ig-version: 9.0.0
+:topic-fhir-version: 4.0.1
+
+[[ext-standards-us-core-valuesets-us-core-clinical-note-type]]
+= US Core Clinical Note Type
+
+== Overview
+
+{topic-summary}
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|URL |http://hl7.org/fhir/us/core/ValueSet/us-core-clinical-note-type
+|Version |9.0.0
+|Status |active
+|===
+
+== Compose
+
+=== Include: http://loinc.org
+
+[cols="2*",options="header"]
+|===
+|Code |Display
+|18842-5 |Not specified in source
+|11488-4 |Not specified in source
+|34117-2 |Not specified in source
+|11506-3 |Not specified in source
+|28570-0 |Not specified in source
+|18748-4 |Not specified in source
+|11502-2 |Not specified in source
+|11526-1 |Not specified in source
+|11504-8 |Not specified in source
+|34111-5 |Not specified in source
+|===
+
+
+== Publishing Metadata
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Publisher |HL7 International / Cross-Group Projects
+|Contact |HL7 International / Cross-Group Projects; http://www.hl7.org/Special/committees/cgp; cgp@lists.HL7.org
+|Date |2024-05-14
+|Canonical URL |http://hl7.org/fhir/us/core/ValueSet/us-core-clinical-note-type
+|===

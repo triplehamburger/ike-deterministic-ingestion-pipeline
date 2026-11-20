@@ -15,3 +15,13 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# IDE and OS files
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# pipeline work folders created when running the tool from the repo root
+work/

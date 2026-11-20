@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy next to your work area and edit. Relative paths are resolved from this file's folder.",
+  "source_dir": "path/to/package",
+  "work_dir": "work",
+  "ig_slug": "us-core",
+  "ig_dir_name": "hl7-us-core-9-0-0",
+  "ig_version": "9.0.0",
+  "fhir_version": "4.0.1",
+  "citation": "HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/",
+  "ig_url": "http://hl7.org/fhir/us/core/STU9/",
+  "canonical_namespace": "http://hl7.org/fhir/us/core/",
+  "license": "Fair use summary of copyrighted work — not for redistribution.",
+  "skip_names": [".index.json", "package.json", "validation-oo.json", "validation-summary.json", "Parameters-manifest.json"],
+  "skip_prefixes": ["Basic-", "ImplementationGuide-"],
+  "skip_suffixes": [".openapi.json"],
+  "skip_resource_types": []
+}

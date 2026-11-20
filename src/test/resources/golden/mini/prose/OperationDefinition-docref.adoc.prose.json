@@ -1,0 +1,1 @@
+{"id":"docref","resource_type":"OperationDefinition","keywords":["document-reference","operation","documents"],"summary":"Defines the fetch DocumentReference operation that returns a searchset Bundle of DocumentReference resources for a patient."}

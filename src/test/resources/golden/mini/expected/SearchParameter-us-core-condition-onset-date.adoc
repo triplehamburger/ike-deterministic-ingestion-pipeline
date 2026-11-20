@@ -1,0 +1,65 @@
+// ext-standards-us-core-searchparams-us-core-condition-onset-date
+// Topic: USCoreConditionOnsetDate
+// Type: reference
+// Status: published
+:topic-id: ext-standards-us-core-searchparams-us-core-condition-onset-date
+:topic-type: reference
+:topic-status: published
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, searchparameter, fhir, condition, onset-date, search
+:topic-summary: Defines the USCoreConditionOnsetDate search parameter for Condition \
+  resources, covering date related onsets given as dateTime and Period.
+:topic-canonical: http://hl7.org/fhir/us/core/SearchParameter/us-core-condition-onset-date
+:topic-resource-type: SearchParameter
+:topic-ig-version: 9.0.0
+:topic-fhir-version: 4.0.1
+
+[[ext-standards-us-core-searchparams-us-core-condition-onset-date]]
+= USCoreConditionOnsetDate
+
+== Overview
+
+{topic-summary}
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Code |onset-date
+|Base |Condition
+|Type |date
+|Expression |Condition.onset.as(dateTime)\|Condition.onset.as(Period)
+|Derived from |http://hl7.org/fhir/SearchParameter/Condition-onset-date
+|===
+
+== Conformance Expectations
+
+[cols="2*",options="header"]
+|===
+|Parameter |Expectation
+|multipleOr |MAY
+|multipleAnd |SHOULD
+|eq |MAY
+|ne |MAY
+|gt |SHALL
+|ge |SHALL
+|lt |SHALL
+|le |SHALL
+|sa |MAY
+|eb |MAY
+|ap |MAY
+|===
+
+== Publishing Metadata
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Publisher |HL7 International / Cross-Group Projects
+|Contact |HL7 International / Cross-Group Projects; http://www.hl7.org/Special/committees/cgp; cgp@lists.HL7.org
+|Date |2024-11-17
+|Canonical URL |http://hl7.org/fhir/us/core/SearchParameter/us-core-condition-onset-date
+|===

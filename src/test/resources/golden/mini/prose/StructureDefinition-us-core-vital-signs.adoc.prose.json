@@ -1,0 +1,1 @@
+{"id":"us-core-vital-signs","resource_type":"StructureDefinition","keywords":["vital-signs","observation"],"summary":"Constrains the Observation resource to define additional constraints for representing vital signs observations, based on the base FHIR Vital Signs Profile."}

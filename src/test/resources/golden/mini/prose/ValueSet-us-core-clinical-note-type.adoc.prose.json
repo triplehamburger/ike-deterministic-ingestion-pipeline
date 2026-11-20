@@ -1,0 +1,1 @@
+{"id":"us-core-clinical-note-type","resource_type":"ValueSet","keywords":["clinical-note","note-type","loinc","terminology"],"summary":"Defines the value set of clinical note types forming a starter set supported for fetching and storing clinical notes."}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ingest-mini-package
+expected_outcome: |
+  Six topic fragments (one per conformance resource, none for package.json or .index.json) plus an _includes.adoc, all in the real writer format, with validation evidence reported.
+context:
+  scaffold_script: place-files.sh

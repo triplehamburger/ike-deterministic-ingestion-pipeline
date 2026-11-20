@@ -1,0 +1,1 @@
+{"id":"us-core-condition-onset-date","resource_type":"SearchParameter","keywords":["condition","onset-date","search"],"summary":"Defines the USCoreConditionOnsetDate search parameter for Condition resources, covering date related onsets given as dateTime and Period."}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: other-ig-slug
+expected_outcome: |
+  Fragments and _includes.adoc whose guide identity (topic ids, keywords, ig-version, citation) is acme-core 1.0.0 with no US Core guide identity leaking in, and validated.
+context:
+  scaffold_script: place-files.sh

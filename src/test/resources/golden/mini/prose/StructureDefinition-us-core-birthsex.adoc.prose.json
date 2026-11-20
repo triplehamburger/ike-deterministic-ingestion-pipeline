@@ -1,0 +1,1 @@
+{"id":"us-core-birthsex","resource_type":"StructureDefinition","keywords":["birth-sex","extension","sex-assigned-at-birth"],"summary":"Defines an extension that holds a code classifying the sex assigned at birth of a person, aligned with LOINC 76689-9."}

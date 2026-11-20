@@ -1,0 +1,58 @@
+// ext-standards-us-core-extensions-us-core-birthsex
+// Topic: US Core Birth Sex Extension
+// Type: reference
+// Status: published
+:topic-id: ext-standards-us-core-extensions-us-core-birthsex
+:topic-type: reference
+:topic-status: published
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, structuredefinition, fhir, birth-sex, extension, sex-assigned-at-birth
+:topic-summary: Defines an extension that holds a code classifying the sex assigned at birth \
+  of a person, aligned with LOINC 76689-9.
+:topic-canonical: http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex
+:topic-resource-type: StructureDefinition
+:topic-ig-version: 9.0.0
+:topic-fhir-version: 4.0.1
+
+[[ext-standards-us-core-extensions-us-core-birthsex]]
+= US Core Birth Sex Extension
+
+== Overview
+
+{topic-summary}
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|URL |http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex
+|Version |9.0.0
+|Context |element: Patient
+|FHIR version |4.0.1
+|FMM |5
+|Standards status |informative
+|===
+
+== Extension Structure
+
+[cols="3*",options="header"]
+|===
+|Path |Type |Binding
+|Extension | |
+|Extension.url | |
+|Extension.value[x] |code |required: http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1021.24
+|===
+
+== Publishing Metadata
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Publisher |HL7 International / Cross-Group Projects
+|Contact |HL7 International / Cross-Group Projects; http://www.hl7.org/Special/committees/cgp; cgp@lists.HL7.org
+|Date |2025-04-22
+|Canonical URL |http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex
+|===

@@ -1,0 +1,60 @@
+// ext-standards-us-core-codesystems-us-core-category
+// Topic: US Core Category
+// Type: reference
+// Status: published
+:topic-id: ext-standards-us-core-codesystems-us-core-category
+:topic-type: reference
+:topic-status: published
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, codesystem, fhir, category, terminology, search
+:topic-summary: Defines the code system of category codes used across US Core Profiles and \
+  resource types for searching and finding resources or workflow hints.
+:topic-canonical: http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+:topic-resource-type: CodeSystem
+:topic-ig-version: 9.0.0
+:topic-fhir-version: 4.0.1
+
+[[ext-standards-us-core-codesystems-us-core-category]]
+= US Core Category
+
+== Overview
+
+{topic-summary}
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|URL |http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+|Version |9.0.0
+|Content |complete
+|===
+
+== Concepts
+
+[cols="3*",options="header"]
+|===
+|Code |Display |Definition
+|sdoh |SDOH |Social Determinants of Health category
+|functional-status |Functional Status |Functional Status category
+|disability-status |Disability Status |Disability Status category
+|cognitive-status |Cognitive Status |Cognitive Status category
+|treatment-intervention-preference |Treatment Intervention Preference |A personal preference for a type of medical intervention (treatment) request under certain conditions.
+|care-experience-preference |Care Experience Preference |Personal thoughts about something a person feels is relevant to their care experience and may be pertinent when planning their care.
+|observation-adi-documentation |Observation ADI Documentation |Statement of presence and properties of patient or provider authored documents that record a patient's goals, preferences and priorities should a patient be unable to communicate them to a provider.
+|PMO |Portable Medical Order (PMO) |Portable Medical Order (PMO) category
+|===
+
+== Publishing Metadata
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Publisher |HL7 International / Cross-Group Projects
+|Contact |HL7 International / Cross-Group Projects; http://www.hl7.org/Special/committees/cgp; cgp@lists.HL7.org
+|Date |2025-11-03
+|Canonical URL |http://hl7.org/fhir/us/core/CodeSystem/us-core-category
+|===

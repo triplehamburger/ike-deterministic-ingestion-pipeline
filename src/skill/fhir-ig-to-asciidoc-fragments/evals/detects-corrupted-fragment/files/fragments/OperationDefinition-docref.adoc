@@ -1,0 +1,62 @@
+// ext-standards-us-core-operations-docref
+// Topic: US Core Fetch DocumentReference
+// Type: reference
+// Status: published
+:topic-id: ext-standards-us-core-operations-docref
+:topic-type: reference
+:topic-status: published
+:topic-provenance: external
+:topic-citation: HL7 International / Cross-Group Projects. US Core Implementation Guide, v9.0.0. http://hl7.org/fhir/us/core/STU9/
+:topic-license: Fair use summary of copyrighted work — not for redistribution.
+:topic-keywords: us-core, operationdefinition, fhir, document-reference, patient-documents, operation
+:topic-summary: Defines the fetch DocumentReference operation that returns references to the \
+  documents available for a patient.
+:topic-canonical: http://hl7.org/fhir/us/core/OperationDefinition/docref
+:topic-resource-type: OperationDefinition
+:topic-ig-version: 9.0.0
+:topic-fhir-version: 4.0.1
+
+[[ext-standards-us-core-operations-docref]]
+= US Core Fetch DocumentReference
+
+== Overview
+
+{topic-summary}
+
+== Identity
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Kind |operation
+|Code |docref
+|Applies to |DocumentReference
+|System |false
+|Type |true
+|Instance |false
+|===
+
+== Parameters
+
+[cols="6*",options="header"]
+|===
+|Name |Use |Min |Max |Type |Description
+|patient |in |1 |1 |id |The id of the patient resource. If there is no match, an empty Bundle is returned.
+|start |in |0 |1 |dateTime |The context date range relates to care service dates, not document reference creation dates - e.g., all records relating to care provided in a specific date range. If no start context date is provided, all documents before the end context date are in scope. The most recent or current document is in scope if neither a start date nor an end context date is provided. The client *SHOULD* provide values precise to the second + time offset.
+|end |in |0 |1 |dateTime |The context date range relates to care dates, not document reference creation dates - e.g., all records relating to care provided in a specific date range. If no end context date is provided, all documents after the start context date are in scope. The most recent or current document is in scope if neither a start date nor an end context date is provided. The client *SHOULD* provide values precise to the second + time offset.
+|type |in |0 |* |Coding |The type relates to document type e.g., for the LOINC code for a C-CDA Clinical Summary of Care (CCD) is 34133-9 (Summary of episode note). If no type is provided, the CCD document, if available, SHALL be in scope, and all other document types MAY be in scope. It is at the server's discretion how to respond if multiple types are provided. The server MAY return documents to any of the specified types. The server's CapabilityStatement should document its behavior and what types it supports.
+|on-demand |in |0 |1 |boolean |This on-demand parameter allows the client to dictate whether they are requesting only 'on-demand' or both 'on-demand' and 'stable' documents (or delayed/deferred assembly) that meet the query parameters
+|profile |in |0 |* |canonical |This parameter allows the client to request documents according to a specific profile using the profile's canonical reference. It is at the server's discretion how to respond if multiple profiles are provided. The server MAY return documents to any of the specified profiles. The server's CapabilityStatement should document its behavior and what profiles it supports.
+|return |out |1 |1 |Bundle |The bundle type is 'searchset' containing http://hl7.org/fhir/documentreference.html[DocumentReference] resources which *SHOULD* conform to the US Core DocumentReference Profiles
+|===
+
+== Publishing Metadata
+
+[cols="1,3",options="header"]
+|===
+|Property |Value
+|Publisher |HL7 International / Cross-Group Projects
+|Contact |HL7 International / Cross-Group Projects; http://www.hl7.org/Special/committees/cgp; cgp@lists.HL7.org
+|Date |2022-11-18
+|Canonical URL |http://hl7.org/fhir/us/core/OperationDefinition/docref
+|===

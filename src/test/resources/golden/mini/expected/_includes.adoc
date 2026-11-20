@@ -1,0 +1,27 @@
+// IKE-ASCIIDOC-FRAGMENT includes manifest
+// IG: hl7-us-core-9-0-0
+// Generated: 2026-11-19
+
+== Profiles
+
+include::StructureDefinition-us-core-vital-signs.adoc[leveloffset=+1]
+
+== Extensions
+
+include::StructureDefinition-us-core-birthsex.adoc[leveloffset=+1]
+
+== Search Parameters
+
+include::SearchParameter-us-core-condition-onset-date.adoc[leveloffset=+1]
+
+== Value Sets
+
+include::ValueSet-us-core-clinical-note-type.adoc[leveloffset=+1]
+
+== Code Systems
+
+include::CodeSystem-us-core-category.adoc[leveloffset=+1]
+
+== Operations
+
+include::OperationDefinition-docref.adoc[leveloffset=+1]
